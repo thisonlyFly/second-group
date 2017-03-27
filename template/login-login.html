@@ -1,0 +1,59 @@
+<div class="loginTop">
+    <div class="container">
+        <div class="loginHome">
+            <a><i class="fa fa-home">Home</i> Authentication</a>
+        </div>
+        <h5 id="h5">AUTHENTICATION</h5>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="login-email col-md-6">
+            <form name="form1" onsubmit="return false;">
+                <div class="H3">
+                    <h3>CREATE AN ACCOUNT</h3>
+                </div>
+                <p>Please enter your email address to create an account.</p>
+                <div class="errorTip" ng-show="form1.f1Email.$error.pattern">Invalid email address.</div>
+                <div class="email FormRow form-group">
+                    <label for="eEmail">Email address</label>
+                    <input type="text" name="f1Email" class="form-control" id="eEmail" ng-model="f1.loginEmail" ng-minlength="4"
+                           ng-maxlength="20" ng-pattern="/^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/">
+                </div>
+                <button ng-click="toEmail()" ng-disabled="!form1.f1Email.$dirty  || form1.f1Email.$invalid" type="submit" class="btn-register">
+                    <a>
+                        <i class="fa fa-user"></i>
+                        Create an account
+                    </a>
+                </button>
+            </form>
+        </div>
+        <div class="login-user col-md-6">
+            <form name="form2" onsubmit="return false;">
+                <div class="H3">
+                    <h3>CREATE AN ACCOUNT</h3>
+                </div>
+                <div class="email FormRow form-group">
+                    <label for="pEmail">Email address</label>
+                    <input name="f2Email" class="form-control" id="pEmail" type="text" maxlength="20"
+                           ng-model="f2.loginEmail"
+                           ng-pattern="/^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/">
+                </div>
+                <div class="pass FormRow form-group">
+                    <label for="pPass">Password</label>
+                    <input name="f2Pass" class="form-control" id="pPass" type="password" maxlength="20"
+                           ng-model="f2.loginPass"
+                           ng-pattern="/^[a-zA-Z0-9]{5,19}$/">
+                </div>
+                <a>Forgot your password?</a>
+                <button type="submit" ng-click="toUser()"
+                        ng-disabled="!form2.f2Email.$dirty || form2.f2Email.$invalid || !form2.f2Pass.$dirty || form2.f2Pass.$invalid ">
+                    <a>
+                        <i class="fa fa-lock"></i>
+                        Sign in
+                    </a>
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

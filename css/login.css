@@ -1,0 +1,286 @@
+
+
+.emailHide{
+    display: none;
+}
+/*-------------------------      login登陆界面       ----------------------------*/
+body{
+    background: #f3f3f3;
+    font-family: "微软雅黑";
+}
+
+/*------------      login登陆界面的头部     -------------*/
+.login .loginTop{
+    height: 92px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.login .loginTop .container{
+    padding: 0;
+    background: #fbfbfb;
+}
+.login .loginTop .loginHome{
+    margin-top: 25px;
+}
+.login .loginTop .loginHome >a{
+    color: #4b2571;
+    font-size: 10px;
+    text-decoration: none;
+}
+.login .loginTop .loginHome >a >i{
+    color: #999;
+    font-size: 10px;
+}
+.login .loginTop .loginHome >a >i:after{
+    content:"/";
+    margin: 0px 10px;
+}
+.login .loginTop .container >h5{
+    color: #222222;
+}
+
+
+
+/*---------------       login内容       ------------------*/
+.login  div.container{
+    background: #fff;
+    padding: 15px;
+}
+.login  div.container .row >div >form{
+    background: #fbfbfb;
+    padding: auto 15px;
+     min-height: 280px;
+    border:1px solid #e1e1e1;
+}
+/*--------   左边的样式  ------*/
+.login  div.container .row .login-email{
+    padding-left: 15px;
+    padding-right: 9px;
+}
+.login  div.container .row .login-email .H3{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+}
+.login  div.container .row .login-email .H3 >h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+.login  div.container .row .login-email >form >p{
+    font-size: 10px;
+    color: #5D5857;
+    display: block;
+}
+.login div.container .row .login-email .errorTip{
+    width: 100%;
+    height: 75px;
+    background: #f2dede;
+    color: #a94442;
+    line-height: 75px;
+    padding-left: 20px;
+    margin:auto auto 25px auto;
+}
+
+.login div.container .row .login-email .email{
+    margin-bottom: 20px;
+}
+.login div.container .row .login-email .email >label{
+    font-size: 10px;
+    font-weight: bold;
+    color: #828282;
+    display: block;
+}
+.login div.container .row .login-email .email >input{
+    width: 270px;
+    height: 30px;
+    border-radius: 0px;
+}
+.login div.container .row .login-email >form >button{
+    margin-bottom: 15px;
+    background: #333;
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    border:none;
+    border-radius: 2px;
+}
+.login div.container .row .login-email >form >button >a{
+    text-decoration: none;
+    color:#fff;
+}
+.login div.container .row .login-email >form >button:hover{
+    background: #f8694d;
+}
+.login div.container .row .login-email >form{
+    padding: 0px 15px;
+}
+
+/*----------     右边的样式     ----------*/
+.login div.container .row .login-user{
+    padding-left: 9px;
+    padding-right: 15px;
+}
+.login div.container .row .login-user .H3{
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 10px;
+}
+.login div.container .row .login-user .H3 >h3{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+.login div.container .row .login-user .email{
+    margin-bottom: 10px;
+}
+.login div.container .row .login-user .email >label{
+    font-size: 10px;
+    font-weight: bold;
+    color: #828282;
+    display: block;
+}
+.login div.container .row .login-user .email >input{
+    width: 270px;
+    height: 30px;
+    border-radius: 0px;
+}
+.login div.container .row .login-user .pass{
+    margin-bottom: 15px;
+}
+.login div.container .row .login-user .pass >label{
+    font-size: 10px;
+    display: block;
+    font-weight: bold;
+    color: #828282;
+}
+.login div.container .row .login-user .pass >input{
+    width: 270px;
+    height: 30px;
+    border-radius: 0px;
+}
+.login div.container .row .login-user >form >a{
+    font-size: 10px;
+    color: black;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: solid;
+}
+.login div.container .row .login-user >form >a:hover{
+    color:#f8694d;
+}
+.login div.container .row .login-user >form >button{
+    margin-bottom: 15px;
+    background: #333;
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    border:none;
+    border-radius: 2px;
+}
+.login div.container .row .login-user >form >button>a{
+    text-decoration: none;
+    color:#fff;
+}
+.login div.container .row .login-user >form >button:hover{
+    background: #f8694d;
+}
+.login div.container .row .login-user >form{
+    padding: 0px 15px;
+}
+.login .loginTop .container{
+    background: #f3f3f3;
+}
+/*--------------------------      注册email里面的样式      ---------------------------*/
+.login .emailText .emailTextContainer .errorTip{
+    width: 100%;
+    height: 75px;
+    background: #f2dede;
+    color: #a94442;
+    line-height: 75px;
+    padding-left: 20px;
+    margin:auto auto 25px auto;
+}
+.login .emailText .emailTextContainer{
+    border:1px solid #E1E1E1;
+}
+.login .emailText .emailTextContainer >form >h3{
+    border-bottom: 1px solid #E1E1E1;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+.login .emailText .emailTextContainer >form >p{
+    font-size: 10px;
+    font-weight: bold;
+    color: #828282;
+}
+.login .emailText .emailTextContainer >form .radio >label{
+    margin-right: 20px;
+}
+.login .emailText .emailTextContainer >form .radio >label >span{
+    font-size: 10px;
+    font-weight: bold;
+    color: #828282;
+}
+.login .emailText .emailTextContainer >form .emailCommon >label{
+    font-size: 8px;
+    font-weight: bold;
+    color: #FF0000;
+}
+.login .emailText .emailTextContainer >form .emailCommon >input{
+    border-radius: 0px;
+    height: 30px;
+}
+.login .emailText .emailTextContainer >form >span{
+    font-size: 8px;
+    color: #FF0000;
+    display: block;
+    margin-bottom: 20px;
+}
+.login .emailText .emailTextContainer >form .emailData{
+    width:100%;
+    padding: 0px;
+}
+.login .emailText .emailTextContainer >form .emailData >div >span{
+    margin-left: 5px;
+}
+.login .emailText .emailTextContainer >form .emailData >div >select{
+    border-radius: 0px;
+}
+.login .emailText .emailTextContainer >form .checkbox{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.login .emailText .emailTextContainer >form >button{
+    height: 30px;
+    width: 70px;
+    background: #333333;
+    color: #fff;
+    font-size: 10px;
+    border: 0px;
+    margin-bottom: 15px;
+}
+.login .emailText .emailTextContainer >form >button >a{
+    text-decoration: none;
+    color:#fff;
+}
+.login .emailText .emailTextContainer >form >button >a >i{
+    font-weight: bold;
+    font-size: 16px;
+}
+.login .emailText .emailTextContainer >form >button:hover{
+    background: #f8694d;
+}
+
+
+
+
+
+
+
+
+
+
+

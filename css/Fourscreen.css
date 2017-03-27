@@ -1,0 +1,61 @@
+
+
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;!important;
+}
+
+
+/*--------------------------第四屏------------------------------*/
+.Four_screen{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.Four_screen .milk .Four_text_left{
+    color: #3cb38d;
+}
+.Four_screen .milk .Four_milk{
+    background: #3cb38d;
+}
+.Four_screen .milk .Four_milk span{
+    text-transform: uppercase;
+}
+
+
+/*--------------------------第六屏------------------------------*/
+/*单个样式*/
+
+.panel-body{
+    padding:0 15px;
+}
+.Five_screen{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.Five_screen .dinks .Five_text_left{
+    color:#d4595e;
+}
+.Five_screen .dinks .five_dinks{
+    background:#d4595e;
+}
+.Five_screen .dinks .five_dinks span{
+    text-transform: uppercase;
+}
+
+
+
+/*单个样式*/
+.Six_screen{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.Six_screen .food .Six_text_left{
+    color:#674941;
+}
+.Six_screen .food .Six_food{
+    background:#674941;
+}
+.Six_screen .food .Six_food span{
+    text-transform: uppercase;
+}

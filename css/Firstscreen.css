@@ -1,0 +1,188 @@
+/*公共·样式*/
+ul li{
+    list-style:none;
+}
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+/*------------------左边的列表-----------------*/
+.index_first_box{
+    margin-top: 20px;
+}
+.index_first_box .list_tips_box {
+    background-color: #F8694D;
+    color: #fff;
+    padding: 18px 0 18px 20px;
+}
+.index_first_box .list_tip .list_tips_box{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+.index_first_box .list_tip .list_tips_box i{
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+/*分类区*/
+.index_first_box .list_box > li{
+    background-color: #333;
+    padding: 13px 10px 14px 10px;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+.index_first_box .list_box > li a{
+    color:#acacac;
+    font-size: 13px;
+    font-family: Calibri;
+    border-bottom: 1px solid transparent;
+}
+.index_first_box .list_box > li a i{
+    margin-right: 10px;
+}
+
+/*左边二级菜单部分*/
+.list_box .dropdown-menu{
+    left:119%;
+    top: -10px;
+    width: 300px;
+    height: 200px;
+    border-radius: 0;
+}
+.list_box .dropdown-menu span{
+    margin-left: 20px;
+}
+.list_box .dropdown-menu .down_list ul > li{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+/*幻灯片区*/
+.banner_box{
+    clear: both;
+}
+.banner_box .pic{
+    padding:0;
+}
+.banner_box .pic img{
+    padding:0;
+}
+
+/*--热销商品（best seller）--*/
+.best_seller_box {
+    margin-top: 20px;
+}
+.best_seller_box .best_tips_box{
+    background-color: #6BC15F;
+    padding: 10px 0;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+    font-family: AIGDT;
+}
+.best_seller_box .best_goods_list ul{
+    padding:0;
+    background: #fff;
+}
+.best_seller_box .best_goods_list .best_goods{
+    padding:10px;
+}
+.best_seller_box .best_goods_list ul li{
+    border:none;
+    border-right: 1px solid #CCCCCC;
+}
+.best_seller_box .best_goods_list ul li:nth-child(3n){
+    border-right:none;
+}
+.best_seller_box .best_goods_list ul li > span{
+    font-size: 13px;
+    color: #000;
+
+}
+.best_seller_box .best_goods_list .best_goods > span{
+    cursor: pointer;
+}
+.best_seller_box .best_goods_list .best_goods > span:hover{
+    color:#f8694d;
+    transition:all 0.3s;
+}
+.best_seller_box .best_goods_list ul li .xxx{
+    padding-top: 8px;
+    padding-bottom:8px;
+}
+.best_seller_box .best_goods_list ul li .pic_l{
+    width: 61%;
+    position:relative;
+    right: -25px;
+}
+.best_seller_box .best_goods_list ul li .price p{
+    font-size: 12px;
+    color: #f8694d;
+}
+.best_seller_box .best_goods_list ul li .news{
+    z-index: 99;
+    line-height: 43px;
+    min-width: 43px;
+    max-width: 43px;
+    position: absolute;
+    left: auto;
+    right:20px;
+    top:60px;
+    font-size: 10px;
+    font-weight: 700;
+    text-align: center;
+
+    text-transform: uppercase;
+}
+.best_seller_box .best_goods_list ul li a{
+    background: url(../images/taiyang.png) no-repeat center left transparent;
+}
+.best_seller_box .best_goods_list ul li .news span{
+    color: #FFFFFF;
+    font-size:12px;
+}
+/*--绿色的小太阳---*/
+.controllers .carousel-control{
+    z-index:999;
+    background: transparent;
+    top: -35px;
+    height: 35px;
+    text-shadow: unset;
+    opacity:0;
+    transition:all 0.5s;
+}
+.controllers .carousel-control.left ,.controllers .carousel-control.right{
+    width: 27px;
+    height: 27px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    margin-left: 15px;
+    margin-top: 3px;
+}
+.controllers .carousel-control.right{
+    margin-right: 15px;
+    margin-top: 3px;
+}
+.controllers .carousel-control.left i ,.controllers .carousel-control.right i{
+    line-height: 27px;
+}
+.best_seller_box:hover .carousel-control{
+    opacity:1;
+}
+
+/*---右边广告部分---*/
+.ad{
+    padding:0 6px;
+}
+.down_adv_box{
+    margin-top: 20px;
+}
+
+

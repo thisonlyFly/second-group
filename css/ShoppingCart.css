@@ -1,0 +1,167 @@
+/*公共样式*/
+body {
+    background: #f3f3f3;
+}
+.container{
+    padding: 0;
+}
+a {
+    color: black;
+    transition:all 0.5s;
+}
+a span{transition:all  0.5s;}
+a:hover {
+    text-decoration: none;
+    color: red;
+
+}
+a:hover span{
+    background:#f8694d;
+    color: white!important;
+}
+.btn{
+    background:#333333;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+.bg_white_color {
+    background-color: #fff;
+    padding:0 20px;
+}
+.color_red{
+    color:#f8694d;
+}
+.text_align_right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.p_left_right_0 {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.m_left_right_0 {
+    margin-right: 0;
+    margin-left: 0
+}
+
+.current {
+    color: red;
+    border-bottom: 3px solid red !important
+}
+
+
+.breadcrumb{
+    border-bottom:1px solid #CCCCCC;
+    margin:20px auto;
+}
+.breadcrumb a{color: #999999;}
+/*购物流程*/
+.center_column {
+    padding: 15px;
+}
+
+.center_column .cart-top ul {
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.center_column .cart-top li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    border-bottom: 3px solid black;
+}
+
+.center_column .cart-top li span {
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px;
+}
+
+/*<!--列表表单-->*/
+
+table {
+    width: 100%;
+    border-left:1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+
+table td {
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+}
+
+thead tr td {
+    padding: 5px;
+}
+
+thead tr td:nth-child(2){
+    width:480px;
+}
+
+tbody tr td {
+    padding: 5px;
+}
+
+tfoot tr td {
+    padding: 5px
+}
+
+tbody .cart_Product {
+    padding: 20px;
+    width: 137px;
+}
+
+tbody .cart_Product a img {
+    border: 1px solid #dddddd;
+}
+tbody .td_num{
+    width: 88px;
+}
+tbody .td_num .number{
+    width:57px;
+}
+
+tbody .add_subtract_btn span{
+    padding: 5px 11px;
+    margin-top: 5px;
+}
+
+tfoot {
+    font-family: 黑体;
+    font-weight: bold;
+}
+
+tfoot input {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #e1e1e1;
+}
+
+tfoot a span {
+    color: white;
+    background: #333333;
+    display: inline-block;
+    text-align: center;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    font-weight: 100;
+    font-size: 15px;
+}
+.totalProducts{color:#828282;}
+.totalshipping{color:#828282;}
+.total{
+    font-size: 18px;
+    color:#828282;
+}
+.cart_navigation{overflow: hidden;margin-top:20px;}

@@ -1,0 +1,124 @@
+
+/*-----复位样式------*/
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+
+
+/*------单个样式------*/
+#pts-promotion {
+    height: 100%;
+    width: 100%;
+    margin-top: 20px;
+}
+#pts-promotion .inner {
+    background: white;
+}
+#ptsstaticontent_promotetop {
+    padding: 10px 0;
+    margin: 0;
+}
+.box-services {
+    padding: 25px 15px;
+}
+.box-services .iconbox {
+    float: left;
+    margin-right: 5px;
+}
+#pts-promotion .box-services .media-body h4 {
+    color: #828282;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    text-transform: none;
+}
+.box-services .media-body h4:hover{
+    color: #f8694d;
+}
+
+/*-----第二屏正文部分-----*/
+.Two_screen{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.Two_screen .Nut .Two_text_left{
+    color: #6bc15f;
+}
+.Two_screen .Nut .Two_jianguo{
+    background: #6bc15f;
+}
+.Two_screen .Nut .Two_jianguo span{
+    text-transform: uppercase;
+}
+
+
+/*鼠标经过显示（遮罩）部分*/
+.zz{
+    position: absolute;
+    top: 120px;
+    width: 90%;
+    height: 150px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+.zz:hover{
+    opacity:1;
+}
+ .zz .bom{
+    background: #fff;
+    opacity: 0.7;
+    height: 100%;
+     position: relative;
+     top: -20px;
+     left: -5px;
+}
+.zz .main{
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    color: #f8694d;
+    font-size: 13px;
+}
+.zz .main .t{
+    border: 2px solid #f8694d;
+    border-radius: 100%;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0 4px;
+}
+.zz .main .h:hover{
+    background: #f8694d;
+    color: #fff;
+}
+.zz .main .addcart{
+    border: 2px solid #f8694d;
+    border-radius: 20px;
+    width: 80%;
+    height: 28px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+/*第一屏热销部分的控制样式*/
+.zz .main_box{
+    position: absolute;
+    top: -25px;
+    left: 20px;
+    color: #f8694d;
+    font-size: 13px;
+}
+.zz .bom_box .main_box span{
+    color: #f8694d;
+}
+

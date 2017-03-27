@@ -1,0 +1,286 @@
+/*公共样式*/
+a{
+    text-decoration: none!important;
+}
+ul{
+    list-style:none;
+    padding:0;
+}
+
+.container{
+    padding: 0;
+}
+/*------------------头部导航------------------*/
+.header_box{
+    height: 38px;
+    padding: 0;
+    font-weight: 300;
+    background: #333333;
+    color: #999999;
+    position: relative;
+}
+.header_box .header_right{
+    font-size: 12px;
+}
+.header_box .container_box > div{
+    padding:10px 0 10px 0;
+}
+.header_box .container_box .header_right a{
+    color: #e1e1e1;
+}
+.header_box .container_box .header_right a:hover{
+    color: #E9654B;
+}
+
+
+.form-control:focus {
+    border-color: #e1e1e1 !important;
+    outline: 0;
+    -webkit-box-shadow: unset;
+    box-shadow: unset;
+}
+
+
+/*右边部分*/
+.header_box .container_box .header_right_list{
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+.header_box .container_box .header_right_list span{
+    margin:0 2px;
+}
+.header_box .container_box .header_right_list .drop_down {
+    color: #eeeeee;
+}
+.header_box .container_box .header_right_list:hover span{
+    color: #E9654B;
+}
+.header_box .container_box .header_right_list .name{
+    font-size: 12px;
+    font-family: Andalus;
+}
+/*----------头部右边下拉按钮的二级菜单---------*/
+.dropdown-menu{
+    margin-top: 10px;
+    margin-left:-50px;
+}
+.dropdown-menu li{
+    font-family: "Calibri";
+    font-size: 12px;
+}
+.dropdown-menu li.cur{
+    color:#f8694d;
+}
+.dropdown-menu li:hover{
+    color:#f8694d;
+}
+.dropdown-menu li img{
+    margin:10px 10px;
+}
+/*第二个菜单*/
+.two .dropdown-menu li{
+     margin: 10px 10px;
+ }
+/*第一个菜单*/
+.one .dropdown-menu li{
+    margin: 10px 10px;
+}
+.one .dropdown-menu li i{
+    margin:0 10px 0 2px;
+
+}
+
+
+/*------logo右边上部分------*/
+.header_main{
+    box-shadow: 0 2px 10px #ccc;
+    padding: 20px 0;
+}
+.header_main .logo_box{
+    height:70px;
+    line-height:75px;
+}
+.header_main .up_header_box .list-inline{
+    float: left;
+    margin:0;
+}
+.header_main .up_header_box .list-inline > li{  /*这里哦用> 是为了不影响二级菜单卡里面的li*/
+    float: left;
+    margin: 0 20px;
+    position: relative;
+    display: block;
+}
+.header_main .up_header_box .list-inline li:first-child{
+    margin-left: 0;
+}
+.header_main .up_header_box .list-inline li a{
+    padding: 16px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #333333;
+    font-weight: 700;
+    position: relative;
+    display: block;
+}
+.header_main .up_header_box .list-inline li a:hover{
+    color: #E9654B;
+    transition:all 0.5s;
+}
+.header_main .up_header_box .list-inline .parent{
+    margin-right: 15px;
+}
+.header_main .up_header_box .list-inline .parent .tu{
+    margin-left: 10px;
+}
+
+/*--IMPORTED FOOD(下拉菜单)--*/
+.up_header_box .media_width_box{
+    width:745px;
+}
+.up_header_box .media_width_box .img_yingtao{
+    width: 200px;
+}
+/*-------logo右边下部分（搜索部分）---------*/
+.sousuo_box{
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    display: table;
+    float: left;
+    width: 100%;
+}
+.search_box [class^="col-"]{
+    padding:0;
+}
+.search_box{
+    margin:0;
+}
+.search_box button{
+    border-radius: 0
+}
+
+.bottom_header_box select{
+    height: 34px;
+    width: 101%;
+    margin-right: -1px;
+    border: 1px solid #e5e5e5;
+    padding: 8px;
+    color: #828282;
+    outline: none;
+}
+
+.btn-fruit-topic{
+    background-color:#E9654B;
+    border-color: #E9654B;
+}
+.bottom_header_box .sousuo{
+    width: 75%;
+    padding:0;
+}
+.bottom_header_box .sousuo .spic{
+    width:0;
+}
+.bottom_header_box .sousuo .tu{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.bottom_header_box .shopping{
+    position: relative;
+    cursor: pointer;
+    min-height: 33px;
+    border-radius: 2px;
+    background: #f8694d;
+    text-align: left;
+    display: inline-block;
+    z-index: 99;
+    width: 20%;
+    padding:0;
+
+}
+.bottom_header_box .shopping .shopping_box{
+    height: 100%;
+}
+.bottom_header_box .shopping a{
+    color: #FFFFFF;
+    font-family: Andalus;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.bottom_header_box .shopping a img{
+    position: absolute;
+    top:9px;
+    left:10px;
+}
+.bottom_header_box .shopping a span{
+    position: relative;
+    top:10px;
+    left: 38px;
+}
+.bottom_header_box .shopping a .tu{
+    position: absolute;
+    top: 9px;
+    right: 12px;;
+}
+
+/*----logo 的菜单 的 二级菜单部分-----------*/
+.up_header_box .dropdown-menu{
+    margin-top:0;
+    border-radius: 0;
+}
+.up_header_box .dropdown-menu .down_list ul{
+    font-family: Andalus;
+    margin-left: 20px;
+}
+.up_header_box .dropdown-menu .down_list{
+    margin-top: 20px;
+}
+.up_header_box .dropdown-menu span{
+    margin-left: 20px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #0a0a0a;
+}
+.up_header_box .dropdown-menu .down_list li{
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+/*-------------------------固定在右边的图标----------------------*/
+.shequ_box{
+    position: fixed;
+    right:0;
+    top: 100px;
+    width: 75px;
+    z-index: 888;
+}
+.shequ_box > div{
+    width:50px;
+    height: 50px;
+    background: #0da5d6;
+    color: #fff;
+    font-size: 30px;
+    line-height: 50px;
+    text-align: center;
+    float: right;
+    transition: all 0.5s;
+}
+.shequ_box > div:hover{
+    width: 75px;
+}
+.shequ_box .facebook_box{
+    background: #1a68bc;
+
+}
+.shequ_box .people_box{
+    background: #ff0462;
+
+}
+.shequ_box .weibo_box{
+    background: #d7e63b;
+
+}
+.shequ_box .weixin_box{
+    background: #28bb4e;
+}
